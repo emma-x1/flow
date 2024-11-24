@@ -1,0 +1,24 @@
+metadata:
+  # device type, episode count, data files, etc.
+
+state:
+  environment:
+    # variables/properties of the simulated enviroment.
+
+  agents:
+    # a list of agents in the simulation, and their properties.
+    # each property must be initialized by specifying a value
+    # or a generator function, and have a fixed tensor shape.
+
+  objects:
+    # a list of objects, similar to the agents list.
+
+  network:
+    # a list of interaction models for the simulation.
+    # could be a grid, or a directed graph, etc.
+
+substeps:
+  # a list of substeps
+  # each substep has a list of agents to run that substep for
+  # as well as the function, input and output variables for each
+  # part of that substep (observation, policy and transition)
